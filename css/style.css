@@ -1,0 +1,977 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap');
+body{
+    background: #121212;
+} 
+.container{
+    max-width: 1320px;
+}
+/* =========================== navbar start ========================== */
+.navbar-nav .nav-item a{
+    color: #DDDDDD;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.nav_ul_main{
+    gap: 30px;
+    margin: 0 0 0 44px;
+}
+.nav_ul_right li a{
+    color: #ffffff;
+}
+.nav_ul_right_middle{
+    margin: 0 25px 0 30px;
+}
+.nav_margin_i{
+    font-size: 14px;
+    margin-right: 7px;
+}
+.nav_ul_right .one{
+    font-size: 20px;
+}
+.nav_ul_right .two{
+    font-size: 25px;
+}
+/* =========================== navbar end ========================== */
+
+/* =========================== hero start ========================== */
+#hero{
+    background: url('../images/hero_img.png') no-repeat center;
+    background-size: cover;
+    padding: 337px 0 103px 0;
+}
+.hero_text_area h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    letter-spacing: 2.7px;
+    color: #ffffff;
+}
+.hero_text_area h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+}
+.hero_text_area h1::after{
+    content: '';
+    width: 90px;
+    height: 4px;
+    background: #ffffff;
+    position: absolute;
+    bottom: 10px;
+    right: -115px;
+}
+.hero_text_area p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    max-width: 523px;
+}
+.hero_text_area a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #121212;
+    padding: 13px 24px;
+    background: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 48px;
+    transition: 0.4s;
+}
+.hero_text_area a:hover{
+    background: #FF4655;
+    color: #ffffff;
+}
+.hero_text_area a i{
+    margin-left: 9.77px;
+}
+.hero_icon ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+    margin: 301px 0 0 0;
+}
+.hero_icon ul a{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    font-size: 20px;
+    background: #ffffff;
+    color: #000000;
+}
+/* =========================== hero end ========================== */
+
+/* =========================== about community start ========================== */
+.community{
+    margin: 34px 0 0px 0;
+}
+.community_h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    color: #ffffff;
+    letter-spacing: 2.66px;
+    max-width: 518px;
+    position: relative;
+    margin: 0;
+}
+.community_h2::after{
+    content: '';
+    width: 120px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 7.5px;
+    right: 181px;
+}
+.community_row{
+    margin: 57px 0 0 0;
+}
+.community_right h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    color: #ffffff;
+    letter-spacing: .81px;
+    margin: 0;
+}
+.community_right ul li{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 5px;
+}
+.community_right ul li i{
+    color: #FF4655;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.community_right p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 13px 0 0 0;
+}
+.community_right a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 13px 24px;
+    background: #212121;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    transition: 0.4s;
+}
+.community_right a:hover{
+    color: #FF4655;
+}
+.community_right a i{
+    margin-left: 9.77px;
+}
+.community_number{
+    margin: 0;
+}
+.number{
+    margin: 50px 8px 84px 8px;
+    padding: 27px 0;
+    text-align: center;
+    background: #212121;
+    border-radius: 0 50px;
+    max-width: 315px;
+}
+.number h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    color: #ffffff;
+    margin-bottom: 0;
+    position: relative;
+}
+.nm_one h2::after{
+    content: '';
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #FF4655;
+    position: absolute;
+    bottom: 12px;
+    left:190px;
+}
+.nm_two h2::after{
+    content: '';
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #FF4655;
+    position: absolute;
+    bottom: 12px;
+    left:185px;
+}
+.nm_three h2::after{
+    content: '';
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #FF4655;
+    position: absolute;
+    bottom: 12px;
+    left:200px;
+}
+.number h6{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.36px;
+    color: #ffffff;
+    margin: 18px 0 0 0;
+}
+/* =========================== about community end ========================== */
+
+/* ===========================  popular games start  ========================== */
+#popular_games{
+    background: #191919;
+}
+.popular-h3{
+    margin-right: auto;
+}
+.popular-h3 h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    color: #ffffff;
+    max-width: 454px;
+    text-align: end;
+    padding: 115px 0 0px 0px;
+    position: relative;
+}
+.popular-h3 h3::after{
+    content: '';
+    height: 3px;
+    width: 105px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 6.5px;
+    right: 110px;
+}
+.popular_images{
+    margin-top: 80px;
+    padding-bottom: 90px;
+}
+.popular_left {
+    position: absolute;
+    top: -215px;
+    left: 1px;
+}
+.slide_icon{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    position: absolute;
+}
+.left_icon{
+    bottom: 112px;
+    right: 0;
+    z-index: 999;
+}
+.right_icon{
+    bottom: 172px;
+    right: 0px;
+}
+/* ===========================  popular games end  ========================== */
+
+/* ===========================  live stream games end  ========================== */
+.live_heading{
+    margin: 90px 0 68px 0;
+}
+.live_heading h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    letter-spacing: 2.66px;
+    max-width: 446px;
+    color: #ffffff;
+    position: relative;
+}
+.live_heading h2::after{
+    content: '';
+    height: 3px;
+    width: 120px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 6.5px;
+    left: 154px;
+}
+.live_video{
+    margin: 0 0 61px 0;
+}
+.video_txt_h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+    position: absolute;
+    bottom: 53px;
+    left: 25px;
+}
+.video_txt_h6{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    position: absolute;
+    bottom: 23px;
+    left: 25px;
+}
+.video_txt_h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    position: absolute;
+    bottom: 23px;
+    right: 25px;
+}
+.video_txt_h3::before {
+    content: '';
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background: #FF4655;
+    position: absolute;
+    bottom: 3px;
+    left: -8px;
+}
+.live_play{
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    line-height: 70px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+.live_padding{
+    filter: grayscale(100%);
+    transform: scale(0.95);
+    transition: 0.4s;
+}
+.strimin_img{
+    height: 275.46px;
+    width: 427px;
+}
+.strimin_img img{
+    height: 100%;
+    width: 100%;
+}
+.prev_matches{
+    margin-top: 50px;
+}
+.prev_matches_h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2.25px;
+    color: #ffffff;
+}
+.prev_matches img{
+    width: 100px;
+}
+.bone{
+    background: #212121;
+    clip-path: polygon(0 0, 100% 0%, 87% 100%, 0% 100%);
+    height: 118px;
+}
+.prev_matches_main h4{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #ffffff;
+
+}
+.bone h4{
+    padding-right: 62px;
+}
+.prev_matches h5{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 6px;
+    color: #ffffff;
+    margin-top: 25px;
+    text-align: center;
+
+}
+.btwo{
+    background: #212121;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 13% 100%);
+    height: 118px;
+}
+.btwo h4{
+    padding-left: 62px;
+}
+.prev_bottom{
+    margin-top: 58px;margin-bottom: 90px;
+}
+.live_video .live_hover:hover .live_padding{
+ transform: scale(1);
+ filter: grayscale(0%);
+}
+/* ===========================  live stream games end  ========================== */
+
+/* ===========================  black friday start  ========================== */
+#black_friday{
+    background-color: #191919;
+    padding: 90px 0 90px 0;
+}
+.top_games_h2 h2 {
+    color: #FFF;
+    text-align: right;
+    font-family: 'Barlow Condensed';
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 2.66px;
+    max-width: 452px;
+    position: relative;
+    margin-bottom: 47px;
+}
+.top_games_h2 h2::after{
+    content: '';
+    height: 3px;
+    width: 105px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 6.5px;
+    right: 92px;
+}
+.black_friday_item{
+    margin-bottom: 60px;
+}
+.black_friday_img img{
+    width: 100%;
+    filter: grayscale(40%);
+}
+.black_friday_text_h3{
+    color: #ffffff;
+    font-family: 'Barlow Condensed';
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1.54px;
+    margin: 18px 0 20px 0;
+}
+.black_friday_text_h4{
+    color: #666666;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    margin: 0px 0 20px 0;
+}
+.price{
+    gap: 10px;
+}
+.discount{
+    padding: 4px 3px 5px 4px;
+    background: #FF4655;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.prev_price{
+    padding: 4px 3px 5px 4px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    letter-spacing: 0.96px;
+    text-decoration: line-through;
+}
+.present_price{
+    padding: 4px 3px 5px 4px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 0.96px;
+}
+.mid_title h3{
+    color: #ffffff;
+    font-family: 'Barlow Condensed';
+    font-size: 20px;
+    font-weight: 500;
+}
+.bottom_row{
+    background: #212121;
+}
+.bottom_row_text{
+    padding-top: 45px;
+    padding-left: 44px;
+}
+.bottom_row_text h6{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FF4655;
+    letter-spacing: 1.6px;
+}
+.bottom_row_text h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 16px;
+}
+.bottom_row_text p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #666666;
+    margin-bottom: 16px;
+}
+.bottom_row_text a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 13px 31px;
+    background: #121212;
+    margin-top: 25px;
+    transition: 0.4s;
+}
+.bottom_row_text a:hover{
+    color: #191919;
+    background: #ffffff;
+}
+.bottom_row_img{
+    padding: 42PX 0 42PX 0;
+}
+/* ===========================  black friday end  ========================== */
+
+/* ===========================  accesories srart  ========================== */
+#accesories{
+    padding: 90px 0 90px 0;
+    color: #121212;
+}
+.accesories_heading h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 2.66px;
+    color: #ffffff;
+    max-width: 446px;
+    position: relative;
+    margin-bottom: 102px;
+}
+.accesories_heading h2::after{
+    content: '';
+    width: 120px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    left: 223px;
+    bottom: 6.5px;
+
+}
+.accesories_item{
+    background: #212121;
+    margin: 0 10px;
+}
+.item_price{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 0.4px;
+    padding: 22px 0 7px 0;
+}
+.item_name{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 45px;
+    margin-bottom: 7px;
+}
+.cart_button{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FF4655;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 24px;
+}
+.accessories_icon{
+    text-align: center;
+    font-size: ;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #FF4655;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    position: absolute;
+}
+.prev_icon {
+        transform: translateY(50%);
+        bottom: 50%;
+        left: -17px;
+        z-index: 999;
+}
+.next_icon {
+    transform: translateY(50%);
+    bottom: 50%;
+    right: -16px;
+}
+/* ===========================  accesories end  ========================== */
+
+/* ===========================  Elite team start  ========================== */
+#Elite_team{
+    background: #191919;
+    padding-top: 100px;
+    padding-bottom: 74px;
+}
+.elite_heading h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 2.66px;
+    max-width: 498px;
+    color: #ffffff;
+    text-align: end;
+    position: relative;
+}
+.elite_heading h2::after{
+    content: '';
+    width: 105px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    bottom: 6.5px;
+    right: 92px;
+}
+.elite_team{
+    margin: 30px 0 0px 0;
+}
+.elite_team_img img{
+    filter: grayscale(100%);
+    width: 100%;
+    transition: 0.5s;
+}
+.elite_text_area{
+    height: 89px;
+    width: 100%;
+    background: rgba(27, 36, 36, 0.29);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 0.5s;
+}
+.elite_text_h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 25px 0 29px 30px;
+    transition: 0.5s;
+}
+.elite_hover_p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    max-width: 300px;
+    margin: 0;
+    margin-left: 30px;
+}
+.elite_hover_links{
+    padding: 19px 58px 30px 30px;
+}
+.elite_hover_links .anchore{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 4px 20px;   
+    background: #FF4655;
+    transition: 1s;
+}
+.elite_hover_links_a i{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    font-size: 20px;
+    background: #FF4655;
+    color: #ffffff;
+}
+.elite_hover_links ul{
+    gap: 20px;
+}
+.elite_hover_main:hover .elite_text_h2{
+    padding: 40px 0 5px 30px;
+}
+.elite_hover_main:hover .elite_text_area{
+    height: 212px;
+}
+.elite_hover_main:hover .elite_team_img img{
+    filter: grayscale(0);
+}
+.elite_hover_main{
+    margin-top: 20px;
+    overflow: hidden;
+}
+/* ===========================  Elite team end  ========================== */
+
+/* ===========================  Q&A start  ========================== */
+#FAQ{
+    margin-top: 55px;
+}
+.FAQ_heading h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 2.66px;
+    color: #ffffff;
+    max-width: 493px;
+    position: relative;
+    margin-bottom: 92px;
+}
+.FAQ_heading h2::after {
+    content: '';
+    width: 128.88px;
+    height: 3px;
+    background: #FF4655;
+    position: absolute;
+    left: 345px;
+    bottom: 6.5px;
+}
+.FAQ_item_h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #FF4655;
+    text-align: center;
+    line-height: 70px;
+    height: 70px;
+    margin: 0;
+    padding: 0 30px 0 30px;
+    margin: 8px 42px 0 0;
+}
+.fqa_part_h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+    transition: 0.4s;
+}
+.FAQ_item:hover .fqa_part_h3{
+    color: #FF4655;
+}
+.fqa_part_p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    max-width: 427px;
+    margin: 0;
+}
+.line2{
+    height: 1px;
+    width: 1320px;
+    background: #666666;
+    margin-top: 75px;
+    margin-bottom: 76px;
+}
+.line1{
+    height: 369px;
+    width: 1px;
+    background: #666666;
+    position: absolute;
+    bottom: -2.5px;
+    left: 50%;
+}
+.FAQ_main{
+    margin-bottom: 200px;
+}
+/* ===========================  Q&A end  ========================== */
+
+/* ===========================  floating start  ========================== */
+#floating{
+    height: 0;
+}
+.float{
+    background: #FF4655;
+    padding: 35px 30px;
+    top: -85px;
+    position: relative;
+}
+.float_h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+    max-width: 725px;
+}
+.e_mail{
+    height: 40px;
+    width: 409px;
+    border: none;
+    padding-left: 20px;
+    border-radius: 30px;
+}
+::placeholder{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #666666;
+    text-transform: uppercase;
+}
+.float_button{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 28px;
+    color: #ffffff;
+    background: #191919;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* ===========================  floating end  ========================== */
+
+/* ===========================  footer start  ========================== */
+#foot{
+    background: #191919;
+    min-height: 400px;
+}
+.foot_top{
+    padding-top: 112px;
+    padding-bottom: 95px;
+}
+.foot_logo{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.05px;
+    color: #ffffff;
+    position: relative;
+    margin: 0 ; 
+}
+.foot_logo::after{
+    content: '';
+    height: 9px;
+    width: 9px;
+    background: #FF4655;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 8px;
+    left: 111px;
+}
+.foot_p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    margin: 30px 0 59px 0;
+    max-width: 451px;
+    text-transform: uppercase; 
+}
+.foot_ul{
+    gap: 10px;
+}
+.footer_a_i{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 28px;
+    background: #212529;
+    color: #ffffff;
+    transition: 0.4s;
+}
+.footer_a:hover .footer_a_i{
+background: #FF4655;
+}
+.ul_link h2{
+    color: #ffffff;
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1.75px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.ul_link a{
+    display: inline-block;
+    text-decoration: none;
+    color: #666666;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+.ul_link a:hover{
+    color: #FF4655;
+
+}
+.foot_h2{
+    color: #ffffff;
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1.75px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.footer_img{
+    margin-top: 20px;
+}
+.foot_bottom{
+    border-top: 1px solid #666666;
+}
+.foot_bottom h3{
+    padding: 25px 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+span{
+    color: #FF4655;
+}
+/* ===========================  footer end  ========================== */
