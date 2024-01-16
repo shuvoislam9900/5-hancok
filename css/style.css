@@ -298,7 +298,7 @@ body{
 }
 /* ===========================  popular games end  ========================== */
 
-/* ===========================  live stream games end  ========================== */
+/* ===========================  live stream games start  ========================== */
 .live_heading{
     margin: 90px 0 68px 0;
 }
@@ -328,27 +328,24 @@ body{
     font-size: 22px;
     font-weight: 600;
     color: #ffffff;
-    position: absolute;
-    bottom: 53px;
-    left: 25px;
 }
 .video_txt_h6{
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #ffffff;
-    position: absolute;
-    bottom: 23px;
-    left: 25px;
+
 }
 .video_txt_h3{
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #ffffff;
-    position: absolute;
-    bottom: 23px;
-    right: 25px;
+    position: relative;
+}
+.live_text {
+    margin-top: -120px;
+    padding: 30px;
 }
 .video_txt_h3::before {
     content: '';
@@ -381,7 +378,6 @@ body{
 }
 .strimin_img{
     height: 275.46px;
-    width: 427px;
 }
 .strimin_img img{
     height: 100%;
