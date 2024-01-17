@@ -67,32 +67,46 @@ display: none;
     width: 95%;
 }
 .nm_one h2::after {
-    bottom: 17%;
-    left: 68%;
+    display: none;
 }
 .nm_two h2::after {
-    bottom: 14%;
-    left: 68%;
+    display: none;
 }
 .nm_three h2::after {
-    bottom: 16%;
-    left: 72%;
+    display: none;
 }
     /* about community end */
 
     /* popular games start */
 .popular-h3 h3 {
-    font-size: 35px;
+    font-size: 38px;
+    font-weight: 600;
     padding: 36px 0 0px 0px;
 }
 .popular-h3 h3::after {
     display: none;
 }
-.popular_left {
-    top: -25%;
+.slider_start {
+    margin-top: 0px;
 }
-.popular_right {
-    margin-top: 60%;
+.slide_margin{
+    margin-top: 90px;
+}
+.slide_right {
+    margin-top: 30px;
+}
+.popular_left {
+    bottom: 0px;
+}
+.draggable{
+    height: auto;
+}
+.left_icon {
+    top: 0;
+    left: 0;
+}
+.right_icon {
+    bottom: 0px;
 }
     /* popular games end */
 
@@ -265,14 +279,6 @@ display: none;
     /* footer end */
 
 }
-@media (min-width:440px) and (max-width:576px){
-.popular_left {
-    top: -20%;
-}
-.popular_right {
-    margin-top: 70%;
-}    
-}
 @media (min-width:576px) and (max-width:768px)
 {
     /* nav srart */
@@ -315,19 +321,211 @@ display: none;
     .number {
         margin: 30px 8px 30px 8px;
     }
+    .nm_one h2::after {
+        display: none;
+    }
+    .nm_two h2::after {
+        display: none;
+    }
+    .nm_three h2::after {
+        display: none;
+    }
     /* about community end */
 
     /* popular games start */
-    .popular_left {
-        top: -18%;
+    .slider_start {
+        margin-top: 0px;
     }
-    .popular_right {
-        margin-top: 70%;
-    }  
+    .slide_margin {
+        margin-top: 120px;
+    }
+    .slide_right {
+        margin-top: 30px;
+    }
+    .popular_left {
+        bottom: 0px;
+    }
+    .draggable{
+        height: auto;
+    }
     /* popular games start */
+
+    /* accessories start */
+    .next_icon {
+        bottom: -45px;
+        right: 80px;
+    }
+    .prev_icon {
+        bottom: -45px;
+        left: 80px;
+        z-index: 999;
+    }
+    /* accessories end */
+
+    /* lieve strimin start */
+    .btwo {
+        clip-path: none;
+    }
+    .bone{
+        clip-path: none;
+    }
+    /* lieve strimin end */
+
+    /* elite team start */
+    .elite_hover_links ul {
+        margin-bottom: 0;
+    }
+    /* elite team end */
+
+    /* FAQ start */
+    .line1{
+        display: none;
+    }
+    .line2{
+        display: none;
+    }
+    .FAQ_item {
+        margin-bottom: 30px;
+    }
+    .FAQ_heading h2 {
+        margin-bottom: 50px;
+    }
+    .FAQ_main {
+        margin-bottom: 30px;
+    }
+    /* FAQ start */
+
+    /* floating start */
+    .float{
+        position:static;
+    }
+    .float_h2 {
+        font-size: 30px;
+    }
+    #floating{
+        height: auto;
+    }
+    .float_button {
+        position: static;
+        transform: translateY(0);
+        margin-top: 20px;
+    }
+    /* floating end */
+
+    /* foot start */
+    .foot_top {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .foot_h2 {
+        text-align: end;
+    }
+    /* foot end */
 }
-@media (min-width:699px) and (max-width:768px){
-.popular_right {
-    margin-top: 65%;
-}  
+@media (min-width: 768px) and (max-width: 992px)
+{
+    /* nav start */
+    nav{
+        z-index: 999;
+        }
+    .nav_ul_main{
+        margin: 0;
+        gap: 0;
+    }
+    .show{
+        background: #FF4655;
+        padding-left: 12px;
+        padding-bottom: 12px;
+    }
+    nav li:hover{
+        border-bottom: 1px solid #ffffff;
+    }
+    /* nav end */
+    /* hero start */
+    #hero {
+        padding: 250px 0 50px 0;
+    }
+    .hero_icon ul {
+        margin: 150px 0 0 0;
+    }
+    /* hero end */
+    
+    /* about community start */
+    .community_image img {
+        width: 100%;
+    }
+    .community_right{
+        margin-top: 20px;
+    }
+    .number {
+        margin: 30px 0;
+    }
+    .nm_one h2::after {
+        display: none;
+    }
+    .nm_two h2::after {
+        display: none;
+    }
+    .nm_three h2::after {
+        display: none;
+    }
+    /* about community end */
+
+    /* popular start */
+    .draggable{
+        height: auto;
+    }
+    .popular_left {
+        bottom: 0px;
+    }
+    /* popular end */
+
+    /* elite team start */
+    .elite_hover_links ul {
+        margin-bottom: 0;
+    }
+    /* elite team end */
+
+    /* faq start */
+    .FAQ_main {
+        margin-bottom: 70px;
+    }
+    .FAQ_item{
+        margin-bottom: 30px;
+    }
+    .line2 {
+        display: none;
+    }
+    .line1 {
+        display: none;
+    }
+    /* faq end */
+    /* floating start */
+    .float{
+        position:static;
+    }
+    .float_h2 {
+        font-size: 30px;
+    }
+    #floating{
+        height: auto;
+    }
+    .float_button {
+        position: static;
+        transform: translateY(0);
+        margin-top: 20px;
+    }
+    /* floating end */
+    /* foot start */
+    .foot_top {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .foot_h2 {
+        margin-bottom: 0;
+    }
+    .footer_img img{
+        width: auto !important;
+    }
+    /* foot end */
 }

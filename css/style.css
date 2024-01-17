@@ -248,14 +248,14 @@ body{
 .popular-h3{
     margin-right: auto;
 }
-.popular-h3 h3{
+.popular-h3 h3 {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 38px;
     font-weight: 400;
     color: #ffffff;
     max-width: 454px;
     text-align: end;
-    padding: 115px 0 0px 0px;
+    padding: 95px 0 0px 0px;
     position: relative;
 }
 .popular-h3 h3::after{
@@ -267,14 +267,24 @@ body{
     bottom: 6.5px;
     right: 110px;
 }
-.popular_images{
-    margin-top: 80px;
+.slide_main img{
+    width: 100%;
+}
+.slider_start {
+    margin-top: 0px;
     padding-bottom: 90px;
 }
+.draggable{
+    height: 480px;
+}
+.slide_margin{
+    margin-top: 110px;
+}
 .popular_left {
-    position: absolute;
-    top: -215px;
-    left: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    width: 75% !IMPORTANT;
 }
 .slide_icon{
     color: #ffffff;
@@ -288,12 +298,12 @@ body{
     position: absolute;
 }
 .left_icon{
-    bottom: 112px;
+    bottom: 60px;
     right: 0;
     z-index: 999;
 }
 .right_icon{
-    bottom: 172px;
+    bottom: 0px;
     right: 0px;
 }
 /* ===========================  popular games end  ========================== */
@@ -604,6 +614,10 @@ body{
     color: #ffffff;
     letter-spacing: 0.4px;
     padding: 22px 0 7px 0;
+}
+.accesories_main img{
+    width: 100%;
+    padding: 0 10%;
 }
 .item_name{
     font-family: 'Oswald', sans-serif;
@@ -955,6 +969,9 @@ background: #FF4655;
 }
 .footer_img{
     margin-top: 20px;
+}
+.footer_img img{
+    width: 100%;
 }
 .foot_bottom{
     border-top: 1px solid #666666;
