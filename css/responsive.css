@@ -8,7 +8,7 @@ nav{
     margin: 0;
     gap: 0;
 }
-.show{
+nav ul{
     background: #FF4655;
     padding-left: 12px;
     padding-bottom: 12px;
