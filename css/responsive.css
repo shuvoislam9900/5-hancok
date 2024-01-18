@@ -10,8 +10,10 @@ nav{
 }
 nav ul{
     background: #FF4655;
-    padding-left: 12px;
     padding-bottom: 12px;
+}
+nav ul li{
+    padding-left: 12px;
 }
 nav li:hover{
     border-bottom: 1px solid #ffffff;
@@ -265,6 +267,9 @@ display: none;
         padding-left: 12px;
         padding-bottom: 12px;
     }
+    nav ul li{
+    padding-left: 12px;
+    }
     nav li:hover{
         border-bottom: 1px solid #ffffff;
     }
@@ -387,6 +392,9 @@ display: none;
         background: #FF4655;
         padding-left: 12px;
         padding-bottom: 12px;
+    }
+    nav ul li{
+    padding-left: 12px;
     }
     nav li:hover{
         border-bottom: 1px solid #ffffff;
