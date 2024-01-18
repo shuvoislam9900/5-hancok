@@ -209,7 +209,6 @@ body{
     background: #FF4655;
     position: absolute;
     bottom: 12px;
-    left:190px;
 }
 .nm_two h2::after{
     content: '';
@@ -219,7 +218,6 @@ body{
     background: #FF4655;
     position: absolute;
     bottom: 12px;
-    left:185px;
 }
 .nm_three h2::after{
     content: '';
@@ -229,7 +227,6 @@ body{
     background: #FF4655;
     position: absolute;
     bottom: 12px;
-    left:200px;
 }
 .number h6{
     font-family: 'Oswald', sans-serif;
@@ -650,13 +647,13 @@ body{
 .prev_icon {
         transform: translateY(50%);
         bottom: 50%;
-        left: -17px;
+        left: 0;
         z-index: 999;
 }
 .next_icon {
     transform: translateY(50%);
     bottom: 50%;
-    right: -16px;
+    right: 0;
 }
 /* ===========================  accesories end  ========================== */
 
@@ -821,7 +818,7 @@ body{
     margin-bottom: 76px;
 }
 .line1{
-    height: 369px;
+    height: 100%;
     width: 1px;
     background: #666666;
     position: absolute;
@@ -829,18 +826,15 @@ body{
     left: 50%;
 }
 .FAQ_main{
-    margin-bottom: 200px;
+    margin-bottom: 30px;
 }
 /* ===========================  Q&A end  ========================== */
 
 /* ===========================  floating start  ========================== */
-#floating{
-    height: 0;
-}
 .float{
     background: #FF4655;
     padding: 35px 30px;
-    top: -85px;
+    bottom: -85px;
     position: relative;
 }
 .float_h2{
@@ -852,7 +846,7 @@ body{
 }
 .e_mail{
     height: 40px;
-    width: 409px;
+    width: 100%;
     border: none;
     padding-left: 20px;
     border-radius: 30px;
@@ -864,19 +858,18 @@ body{
     color: #666666;
     text-transform: uppercase;
 }
-.float_button{
+.float_button {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    padding: 10px 28px;
+    padding: 8px 28px;
     color: #ffffff;
     background: #191919;
     border: none;
     border-radius: 30px;
     position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
+    right: 0;
+    top: 0;
 }
 /* ===========================  floating end  ========================== */
 

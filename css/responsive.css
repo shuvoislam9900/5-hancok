@@ -66,15 +66,6 @@ display: none;
     max-width: none;
     width: 95%;
 }
-.nm_one h2::after {
-    display: none;
-}
-.nm_two h2::after {
-    display: none;
-}
-.nm_three h2::after {
-    display: none;
-}
     /* about community end */
 
     /* popular games start */
@@ -236,27 +227,7 @@ display: none;
 
     /* floating part start */
 .float{
-    position:static;
-}
-.float_h2 {
-    font-size: 30px;
-}
-#floating{
-    height: auto;
-}
-.e_mail {
-    width: 230px;
-    height: 30px;
-}
-::placeholder{
-    font-size: 14px;
-}
-.float_button {
-    font-size: 14px;
-    margin-top: 10px;
-    position: static;
-    transform: translateX(0);
-    padding: 5px 16px;
+    bottom: 0;
 }
     /* floating part start */
 
@@ -320,15 +291,6 @@ display: none;
     }
     .number {
         margin: 30px 8px 30px 8px;
-    }
-    .nm_one h2::after {
-        display: none;
-    }
-    .nm_two h2::after {
-        display: none;
-    }
-    .nm_three h2::after {
-        display: none;
     }
     /* about community end */
 
@@ -397,18 +359,7 @@ display: none;
 
     /* floating start */
     .float{
-        position:static;
-    }
-    .float_h2 {
-        font-size: 30px;
-    }
-    #floating{
-        height: auto;
-    }
-    .float_button {
-        position: static;
-        transform: translateY(0);
-        margin-top: 20px;
+        bottom: 0;
     }
     /* floating end */
 
@@ -460,15 +411,6 @@ display: none;
     .number {
         margin: 30px 0;
     }
-    .nm_one h2::after {
-        display: none;
-    }
-    .nm_two h2::after {
-        display: none;
-    }
-    .nm_three h2::after {
-        display: none;
-    }
     /* about community end */
 
     /* popular start */
@@ -494,26 +436,13 @@ display: none;
         margin-bottom: 30px;
     }
     .line2 {
-        display: none;
-    }
-    .line1 {
-        display: none;
+        margin-top: 15px;
+        margin-bottom: 45px;    
     }
     /* faq end */
     /* floating start */
     .float{
-        position:static;
-    }
-    .float_h2 {
-        font-size: 30px;
-    }
-    #floating{
-        height: auto;
-    }
-    .float_button {
-        position: static;
-        transform: translateY(0);
-        margin-top: 20px;
+        bottom: 0;
     }
     /* floating end */
     /* foot start */
